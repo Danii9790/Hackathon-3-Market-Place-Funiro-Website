@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-
+import Link from "next/link";
 const Hero = () => {
   return (
     <div className="relative md:w-[1349px] lg:w-[1349px] w-full ">
@@ -26,13 +26,15 @@ const Hero = () => {
           <h1 className="text-xl md:text-3xl lg:text-4xl font-bold text-[#B88E2F] mb-4">
             Discover Our New Collection
           </h1>
-          <p className="text-gray-600 text-sm md:text-base lg:text-lg mb-6">
+          <p className="hidden md:block text-gray-600 text-sm sm:text-base md:text-lg mb-6">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit
             tellus, luctus nec ullamcorper mattis.
           </p>
+          <Link href="/shop" >
           <button className="bg-[#B88E2F] hover:bg-yellow-600 text-white px-4 py-2 md:px-6 md:py-3 rounded-lg">
             Buy Now
           </button>
+          </Link>
         </div>
       </div>
     </div>
