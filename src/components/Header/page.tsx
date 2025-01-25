@@ -16,7 +16,7 @@ const Header = () => {
   return (
     <main>
       {/* Header Container */}
-      <div className="top-0 bg-[#FAFAFA] flex justify-between items-center w-full h-[35px] max-w-[1365px] mx-auto pt-10 px-4">
+      <div className="top-0 bg-[#FAFAFA] flex justify-between items-center w-full h-[35px] mx-auto pt-10 px-4">
         {/* Logo and Brand Name */}
         <div className="flex items-center space-x-2">
           <Image src="/logo.png" alt="Furniro Logo" width={50} height={32} />
@@ -89,7 +89,7 @@ const Header = () => {
                 <Menu className="h-6 w-6" />
               </Button>
             </SheetTrigger>
-            <SheetContent side="left">
+            <SheetContent side="right">
               <SheetHeader>
                 <SheetTitle>Menu</SheetTitle>
               </SheetHeader>
