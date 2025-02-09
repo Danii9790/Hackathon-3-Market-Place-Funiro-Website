@@ -1,6 +1,12 @@
 import { createSlice, PayloadAction } from "@reduxjs/toolkit";
 import { ReactNode } from "react"; // Import ReactNode
-
+export interface Product {
+  id: string;
+  title: string;
+  price: number;
+  image: string;
+  quantity: number;
+}
 interface CartItem {
   id: string;
   title: string;
