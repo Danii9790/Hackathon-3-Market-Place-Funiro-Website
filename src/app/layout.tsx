@@ -3,8 +3,8 @@ import { Poppins } from "next/font/google";
 import "./globals.css";
 import Header from "@/components/Header/page";
 import Footer from "@/components/Footer/page";
-import ReduxProvider from "./store/ReduxProvider"; // Import the new ReduxProvider
-import { ClerkProvider } from '@clerk/nextjs';
+import ReduxProvider from "./store/ReduxProvider";
+import { ClerkProvider } from "@clerk/nextjs";
 
 const poppins = Poppins({
   subsets: ["latin"],
@@ -14,9 +14,9 @@ const poppins = Poppins({
 export const metadata: Metadata = {
   title: "Furniro",
   description: "Made By Danii",
-  icons:{
-    icon:"/icons/logo.png"
-  }
+  icons: {
+    icon: "/icons/logo.png",
+  },
 };
 
 export default function RootLayout({
