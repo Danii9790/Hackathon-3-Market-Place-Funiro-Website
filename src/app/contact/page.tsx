@@ -17,7 +17,7 @@ const page = () => {
           height={32}
           className="ml-auto mr-auto"
         />
-        <h1 className="text-4xl font-bold">Shop</h1>
+        <h1 className="text-4xl font-bold">Contact</h1>
         <p className="text-gray-500">
           <a href="/" className="text-blue-500 hover:underline">
             Home
